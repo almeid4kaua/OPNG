@@ -31,7 +31,7 @@ img {
     height: auto;
 }
 
-.texto {
+.texto, .texto1 {
     position: absolute;
     bottom: 0px;
     right: 10px; /* Ajustando a posição do texto para a direita */
@@ -42,7 +42,7 @@ img {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adicionando um leve sombreamento */
 }
 
-.texto h2 {
+.texto, .texto1 h2 {
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -71,13 +71,18 @@ img {
         align-items: center;
     }
 
-    .texto-esquerda {
+    .texto-esquerda, .texto-generosa {
         position: relative;
         right: auto;
         left: 0; /* Posiciona o texto à esquerda */
         width: calc(90% - 40px); /* Largura igual a 90% da largura da tela menos o espaçamento */
         margin-top: 20px; /* Espaçamento superior */
         margin-right: auto; /* Margem à direita automática */
+    }
+
+    .oliver2 {
+        width: 1150px; /* Ajuste o valor conforme necessário para telas maiores */
+        height: auto; /* Mantém a proporção da imagem */
     }
     }
     
@@ -87,7 +92,7 @@ img {
     }
 
     @media (max-width: 768px) {
-        .texto {
+        .texto, .texto1 {
             left: 50%; /* Posiciona o texto no centro da tela */
             transform: translateX(-50%); /* Ajusta o texto para a esquerda em relação à sua própria largura */
             width: 90%; /* Limitando a largura do texto para garantir que ele permaneça dentro da tela */
@@ -113,12 +118,12 @@ img {
     box-sizing: border-box;
 }
 
-.texto-esquerda h2 {
+.texto-esquerda, .texto-generosa h2 {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-.texto-esquerda p {
+.texto-esquerda, .texto-generosa p {
     font-size: 16px;
     line-height: 1.5;
 }
@@ -140,4 +145,48 @@ nav {
 .lepaizo {
     background-color: #1B1B1B;
 }
+
+.generosa {
+    background-color: rgb(128, 0, 32); /* Usando RGB */
+}
+
+.selecoes {
+    text-align: center;
+    background-color: transparent;
+    font-size: 50px;
+}
+
+.generosa {
+    position: relative; /* Adiciona posição relativa à seção */
+    background-color: rgb(128, 0, 32); /* Usando RGB */
+}
+
+.oliver {
+    position: relative;
+    background-color: #8B4513;
+}
+
+.texto-generosa {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 1px;
+    background-color: #2e2e2e;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+.texto1 {
+    bottom: -10px;
+}
+
+.oliver2 {
+    width: 550px; /* Ajuste o valor conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
 
