@@ -1,0 +1,143 @@
+.personagem {
+    position: relative;
+    height: 100vh; /* Altura total da viewport */
+    overflow: hidden;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #8b0000;
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* Definindo o z-index para que o background fique atrás do conteúdo */
+}
+
+.conteudo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    padding: 0 20px; /* Espaçamento interno */
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 50%; /* Ajuste conforme necessário */
+    height: auto;
+}
+
+.texto {
+    position: absolute;
+    bottom: 0px;
+    right: 10px; /* Ajustando a posição do texto para a direita */
+    z-index: 1; /* Garante que o texto esteja acima do background */
+    color: white;
+    text-align: left;
+    text-align: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adicionando um leve sombreamento */
+}
+
+.texto h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.texto p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.doce {
+    text-align: center;
+    padding: 41px;
+    background-color: #2e2e2e;
+    color: white;
+
+}
+
+@media (max-width: 768px) {
+    .conteudo {
+        justify-content: center; /* Centralizar o conteúdo */
+        padding: 0 10px; /* Reduzir o espaçamento interno */
+    }
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texto-esquerda {
+        position: relative;
+        right: auto;
+        left: 0; /* Posiciona o texto à esquerda */
+        width: calc(90% - 40px); /* Largura igual a 90% da largura da tela menos o espaçamento */
+        margin-top: 20px; /* Espaçamento superior */
+        margin-right: auto; /* Margem à direita automática */
+    }
+    }
+    
+
+    img {
+        max-width: 80%; /* Aumentar o tamanho da imagem para dispositivos móveis */
+    }
+
+    @media (max-width: 768px) {
+        .texto {
+            left: 50%; /* Posiciona o texto no centro da tela */
+            transform: translateX(-50%); /* Ajusta o texto para a esquerda em relação à sua própria largura */
+            width: 90%; /* Limitando a largura do texto para garantir que ele permaneça dentro da tela */
+            padding: 20px; /* Adicionando espaço interno */
+            box-sizing: border-box; /* Incluindo padding no cálculo do tamanho total */
+        }
+        
+    }
+    
+
+
+.texto-esquerda {
+    position: absolute;
+    left: 20px; /* Posição à esquerda */
+    top: 20px; /* Posição no topo */
+    z-index: 1;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background-color: #2e2e2e;
+    margin-right: 20px; /* Espaçamento à direita */
+    box-sizing: border-box;
+}
+
+.texto-esquerda h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.texto-esquerda p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+nav {
+    background: #1b1b1b;
+    width: 100%; /* Garantir cobertura total na largura */
+    position: fixed; /* Fixa o cabeçalho no topo da página */
+    top: 0; /* Alinha no topo da página */
+    left: 0; /* Alinha à esquerda da página */
+    z-index: 9999; /* Suficientemente alto para estar acima de todos os outros conteúdos */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5); /* Opcional: adiciona sombra para destacar */
+}
+
+.mix {
+    background-color: #036a25;
+}
+
+.lepaizo {
+    background-color: #1B1B1B;
+}
+

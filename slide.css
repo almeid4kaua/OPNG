@@ -1,0 +1,83 @@
+
+  
+  .card_form::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+    transition: opacity 0.2s ease-in-out;
+    opacity: 0;
+  }
+  
+  .card:hover .card_form::before {
+    opacity: 1;
+  }
+  
+  .card_data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .card_data span {
+    color: #9147ff;
+    font-size: 0.9em;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .card:hover .card_data span {
+    opacity: 1;
+  }
+  
+  .text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+  }
+  
+  .text_m {
+    font-size: 0.9em;
+  }
+  
+  .text_s {
+    color: #9147ff;
+    font-size: 0.6em;
+  }
+  
+  .cube {
+    width: max-content;
+    height: 10px;
+    transition: all 0.2s;
+    transform-style: preserve-3d;
+  }
+  
+  .card:hover .cube {
+    transform: rotateX(90deg);
+  }
+  
+  .side {
+    width: max-content;
+    height: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+  }
+  
+  .top {
+    transform: rotateX(-90deg) translate3d(0, 0, 0em);
+  }
+  
+  .front {
+    transform: translate3d(0, 0, 1em);
+  }
+  
+  .acess {
+    text-decoration: none;
+    font-size: large;
+    color: white;
+  }
+  

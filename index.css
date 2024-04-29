@@ -1,0 +1,167 @@
+body {
+    background-color: white;
+    color: black;
+    background-image: url(./imagenss/jollyrogerluffy\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position-y: 590px;
+}
+
+.intro {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: #171c24;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25d366;
+    color: #fff;
+    text-decoration: none;
+    text-align: end;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background-color: #128c7e;
+}
+
+.container {
+    position: fixed; /* Fixa o botão na tela */
+    bottom: 20px; /* Distância do botão até o fundo da página */
+    left: 50%; /* Centraliza o botão horizontalmente */
+    transform: translateX(-50%); /* Corrige o alinhamento para a esquerda */
+}
+
+
+.central {
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo mais escura com transparência */
+    backdrop-filter: blur(10px); /* Efeito de fundo borrado */
+    padding: 20px; /* Espaçamento interno */
+    width: fit-content; /* Ajusta a largura ao conteúdo */
+    font-size: auto;
+}
+
+.blurred-text {
+    margin: 0; /* Remove a margem padrão do parágrafo */
+    color: black; /* Cor do texto */
+    font-size: large;
+}
+
+h2 {
+    margin: 20px auto 80px;
+    font-size: 38px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 1.5;
+  }
+  
+  details {
+    width: 75%;
+    min-height: 5px;
+    max-width: 700px;
+    padding: 45px 70px 45px 45px;
+    margin: 0 auto;
+    position: relative;
+    font-size: 22px;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 15px;
+    box-sizing: border-box;
+    transition: all .3s;
+  }
+  
+  details + details {
+    margin-top: 20px;
+  }
+  
+  details[open] {
+    min-height: 50px;
+    background-color: #f6f7f8;
+    box-shadow: 2px 2px 20px rgba(0,0,0,.2);
+  }
+  
+  details p {
+    color: #96999d;
+    font-weight: 300;
+  }
+  
+  summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  summary:focus {
+    outline: none;
+    
+  }
+  
+  summary:focus::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 0 5px rebeccapurple;
+  }
+  
+  summary::-webkit-details-marker {
+    display: none
+  }
+  
+  .control-icon {
+    fill: rebeccapurple;
+    transition: .3s ease;
+    pointer-events: none;
+  }
+  
+  .control-icon-close {
+    display: none;
+  }
+  
+  details[open] .control-icon-close {
+    display: initial;
+    transition: .3s ease;
+  }
+  
+  details[open] .control-icon-expand {
+    display: none;
+  }
+
+.pular {
+    margin-bottom: 100%;
+}
+
+footer {
+    text-align: center;
+}
+
+nav {
+    position: relative; /* Adicione position relative para definir o contexto de posicionamento */
+    z-index: 9999; /* Defina um z-index alto para garantir que o cabeçalho esteja acima de outros elementos */
+}
+
+.whatsapp-button {
+    z-index: 99999; /* Defina um z-index ainda maior para garantir que o botão de borramento esteja acima de todos os outros elementos */
+}
+
+/* Remova o fundo oculto nos elementos das listas suspensas */
+nav ul ul {
+    background-color: transparent;
+}
+
+.blurred-text {
+    margin: 0;
+}
+
