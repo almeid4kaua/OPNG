@@ -57,6 +57,7 @@ img {
     padding: 41px;
     background-color: #2e2e2e;
     color: white;
+
 }
 
 @media (max-width: 768px) {
@@ -126,15 +127,7 @@ img {
     line-height: 1.5;
 }
 
-nav {
-    background: #1b1b1b;
-    width: 100%; /* Garantir cobertura total na largura */
-    position: fixed; /* Fixa o cabeçalho no topo da página */
-    top: 0; /* Alinha no topo da página */
-    left: 0; /* Alinha à esquerda da página */
-    z-index: 9999; /* Suficientemente alto para estar acima de todos os outros conteúdos */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.5); /* Opcional: adiciona sombra para destacar */
-}
+
 
 .mix {
     background-color: #1B1B1B;
@@ -192,7 +185,7 @@ nav {
 }
 
 
-.generosa, .oliver, .jack, .personagem, .lepaizo {
-    height: 800px;
+.generosa, .oliver, .jack {
+    height: 812px;
 }
 
