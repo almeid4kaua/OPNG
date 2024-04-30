@@ -1,0 +1,18 @@
+.strip {
+    text-align: center;
+    padding: 41px;
+    background-color: #2e2e2e;
+    color: white;
+}
+
+.strip2 {
+    text-align: center;
+    padding: 0px;
+    background-color: #2e2e2e;
+    color: white;
+    font-weight: bold;
+}
+
+.lepaizo {
+    background-color: #191970;
+}
