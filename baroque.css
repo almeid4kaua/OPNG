@@ -123,7 +123,7 @@ img {
 }
 
 .texto-esquerda, .texto-generosa p {
-    font-size: 16px;
+    /* font-size: 16px; */
     line-height: 1.5;
 }
 
@@ -204,3 +204,17 @@ section {
 .nero {
     background-color: #8B4513;
 }
+
+@media (max-width: 768px) {
+    .texto-esquerda {
+        left: 10px;
+        right: 10px; 
+        padding: 10px; 
+        top: 10px; 
+    }
+
+    .selecoes {
+        font-size: 24px; 
+    }
+}
+

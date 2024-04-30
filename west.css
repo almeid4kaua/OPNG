@@ -197,3 +197,15 @@ section {
     overflow: hidden;
 }
 
+@media (max-width: 768px) {
+    .texto-esquerda {
+        left: 10px;
+        right: 10px; 
+        padding: 10px; 
+        top: 10px; 
+    }
+
+    .selecoes {
+        font-size: 24px; 
+    }
+}
