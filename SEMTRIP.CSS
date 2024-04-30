@@ -219,3 +219,39 @@ section {
 .akira {
     background-color: #0A0F0D;
 }
+
+.texto-esquerda {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background-color: #2e2e2e;
+    margin-right: 20px;
+    box-sizing: border-box;
+    width: auto; /* Garante que a largura se adapte ao conteúdo */
+}
+
+.selecoes {
+    font-size: 50px;
+    background-color: transparent;
+    white-space: nowrap; /* Previne que o texto quebre em várias linhas */
+    overflow: hidden; /* Esconde qualquer texto que exceda o espaço disponível */
+    text-overflow: ellipsis; /* Adiciona "..." ao final se o texto exceder o espaço disponível */
+}
+
+@media (max-width: 768px) {
+    .texto-esquerda {
+        left: 10px;
+        right: 10px; /* Ajusta as margens laterais */
+        padding: 10px; /* Diminui o padding */
+        top: 10px; /* Ajusta a posição vertical */
+    }
+
+    .selecoes {
+        font-size: 24px; /* Diminui o tamanho da fonte em telas menores */
+    }
+}
