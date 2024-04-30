@@ -139,7 +139,7 @@ nav {
 }
 
 .mix {
-    background-color: #036a25;
+    background-color: #1B1B1B;
 }
 
 .lepaizo {
@@ -164,6 +164,11 @@ nav {
 .oliver {
     position: relative;
     background-color: #8B4513;
+}
+
+.jack {
+    position: relative;
+    background-color: #1B1B1B;
 }
 
 .texto-generosa {
