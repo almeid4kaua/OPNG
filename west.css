@@ -1,3 +1,15 @@
+.lepaizo {
+    background-color:hsl(42, 100%, 33%);
+}
+
+.oliver {
+    background-color: #8B4513;
+}
+
+.generosa {
+    background-color: #ff69b4;
+}
+
 .personagem {
     position: relative;
     height: 100vh; /* Altura total da viewport */
@@ -75,7 +87,7 @@ img {
         position: relative;
         right: auto;
         left: 0; /* Posiciona o texto à esquerda */
-        width: calc(90% - 40px);  /* Largura igual a 90% da largura da tela menos o espaçamento */
+          /* width: calc(90% - 40px); Largura igual a 90% da largura da tela menos o espaçamento */
         margin-right: auto; /* Margem à direita automática */
     }
 
@@ -131,10 +143,6 @@ img {
     background-color: #1B1B1B;
 }
 
-.lepaizo {
-    background-color: #1B1B1B;
-}
-
 .generosa {
     background-color: rgb(128, 0, 32); /* Usando RGB */
 }
@@ -145,15 +153,6 @@ img {
     font-size: 50px;
 }
 
-.generosa {
-    position: relative; /* Adiciona posição relativa à seção */
-    background-color: rgb(128, 0, 32); /* Usando RGB */
-}
-
-.oliver {
-    position: relative;
-    background-color: #8B4513;
-}
 
 .jack {
     position: relative;
