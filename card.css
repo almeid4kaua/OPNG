@@ -1,97 +1,195 @@
-footer {
-    text-align: center;
+.personagem {
+    position: relative;
+    height: 100vh; 
+    overflow: hidden;
 }
 
-.pacifico-regular {
-    font-family: "Pacifico", cursive;
-    font-weight: 400;
-    font-style: normal;
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #8b0000;
+    background-size: cover;
+    background-position: center;
+    z-index: -1; 
+}
+
+.conteudo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 50%; 
+    height: auto;
+}
+
+.texto, .texto1 {
+    position: absolute;
+    bottom: 0px;
+    right: 10px; 
+    z-index: 1; 
+    color: white;
+    text-align: left;
+    text-align: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.texto, .texto1 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.texto p {
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .doce {
     text-align: center;
     padding: 41px;
-    background-color: #0074D9;
-}
-
-.capitao-card {
-    background: linear-gradient(to bottom, #234e82, #0a2341); /* Cores da Marinha */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease-in-out;
-    margin: 0 auto;
-    max-width: 400px; /* Defina a largura máxima */
-}
-
-.capitao, .comandante, .divisoes-1 {
-    background: #234e82; /* Cor principal da Marinha */
-    padding: 50px 0;
-    text-align: center;
-}
-
-.capitao-text h2 {
-    font-size: 28px;
-    color: #fff; /* Texto branco */
-}
-
-.capitao-text p {
-    color: #fff; /* Texto branco */
-}
-
-.titulo-c {
-    font-family: 'Poppins', sans-serif;
-    font-size: 30px; /* Tamanho do título */
-    font-weight: bold;
-    color: #fff; /* Texto branco */
-}
-
-
-img {
-    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
-    height: auto; /* Mantém a proporção da imagem */
-    margin-bottom: 20px; /* Espaço entre a imagem e o texto */
-}
-
-.intro {
-    text-align: center;
-    color: #6A0DAD;
-    font-family: "Bungee", sans-serif;
-    font-weight: normal;
-}
-
-.intro-2 {
-    font-family: "Roboto", sans-serif;
+    background-color: #2e2e2e;
     color: white;
-    font-weight: bold;
-    text-align: center;
-    font-size: small;
+
 }
 
-.intro3 {
-    text-align: center;
-    font-family: "Bungee", sans-serif;
-    font-weight: normal;
-    color: #6A0DAD;
-}
-
-.capitao-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    transition: transform 0.3s ease-in-out;
-}
-
-@media (min-width: 768px) {
-    .capitao-image img {
-        width: 80%; /* Aumentando o tamanho da imagem para telas maiores */
-        margin: 0 auto; /* Centralizando a imagem horizontalmente */
+@media (max-width: 768px) {
+    .conteudo {
+        justify-content: center;
+        padding: 0 10px; 
     }
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texto-esquerda, .texto-generosa {
+        position: relative;
+        right: auto;
+        left: 0;
+        width: calc(90% - 40px); 
+        margin-right: auto; 
+    }
+
+    .oliver2 {
+        width: 1150px;
+        height: auto; 
+    }
+
+    .texto, .texto1 {
+        left: 50%; 
+        transform: translateX(-50%);
+        width: 90%;
+        padding: 20px; 
+        box-sizing: border-box; 
+    }
+    
+    }
+    
+
+    img {
+        max-width: 80%; 
+    }
+
+.texto-esquerda {
+    position: absolute;
+    left: 20px;
+    top: 20px; 
+    z-index: 1;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background-color: #2e2e2e;
+    margin-right: 20px; 
+    box-sizing: border-box;
 }
 
-.titulo-c {
-    font-family: 'Poppins', sans-serif;
-    font-size: 30PX;
-    font-weight: bold;
+.texto-esquerda, .texto-generosa h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.texto-esquerda, .texto-generosa p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.mix {
+    background-color: #1B1B1B;
+}
+
+.lepaizo {
+    background-color: #1B1B1B;
+}
+
+.selecoes {
+    text-align: center;
+    background-color: transparent;
+    font-size: 50px;
+}
+
+.generosa {
+    position: relative; 
+    background-color: rgb(128, 0, 32); 
+}
+
+.oliver {
+    position: relative;
+    background-color: #8B4513;
+}
+
+.jack {
+    position: relative;
+    background-color: #1B1B1B;
+}
+
+.diane {
+    background-color: #8B4513;
+}
+
+.hawk {
+    background-color: #ff69b4;
+}
+
+.argus {
+    background-color:hsl(42, 100%, 33%);
+}
+
+
+.texto-generosa {
+    position: absolute;
+    left: 20px;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 1px;
+    background-color: #2e2e2e;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+.texto1 {
+    bottom: -10px;
+}
+
+.oliver2 {
+    width: 550px; 
+    height: auto; 
+}
+
+
+section {
+    height: 812px;
+    overflow: hidden;
 }
 

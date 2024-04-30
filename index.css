@@ -33,24 +33,24 @@ body {
 }
 
 .container {
-    position: fixed; /* Fixa o botão na tela */
-    bottom: 20px; /* Distância do botão até o fundo da página */
-    left: 50%; /* Centraliza o botão horizontalmente */
-    transform: translateX(-50%); /* Corrige o alinhamento para a esquerda */
+    position: fixed;
+    bottom: 20px; 
+    left: 50%; 
+    transform: translateX(-50%);
 }
 
 
 .central {
-    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo mais escura com transparência */
-    backdrop-filter: blur(10px); /* Efeito de fundo borrado */
-    padding: 20px; /* Espaçamento interno */
-    width: fit-content; /* Ajusta a largura ao conteúdo */
+    background-color: rgba(0, 0, 0, 0.5); 
+    backdrop-filter: blur(10px); 
+    padding: 20px; 
+    width: fit-content; 
     font-size: auto;
 }
 
 .blurred-text {
-    margin: 0; /* Remove a margem padrão do parágrafo */
-    color: black; /* Cor do texto */
+    margin: 0; 
+    color: black; 
     font-size: large;
 }
 
@@ -61,9 +61,9 @@ h2 {
     text-align: center;
     letter-spacing: 2px;
     line-height: 1.5;
-  }
-  
-  details {
+}
+
+details {
     width: 75%;
     min-height: 5px;
     max-width: 700px;
@@ -75,37 +75,37 @@ h2 {
     border-radius: 15px;
     box-sizing: border-box;
     transition: all .3s;
-  }
-  
-  details + details {
+}
+
+details + details {
     margin-top: 20px;
-  }
-  
-  details[open] {
+}
+
+details[open] {
     min-height: 50px;
     background-color: #f6f7f8;
     box-shadow: 2px 2px 20px rgba(0,0,0,.2);
-  }
-  
-  details p {
+}
+
+details p {
     color: #96999d;
     font-weight: 300;
-  }
-  
-  summary {
+}
+
+summary {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-weight: 500;
     cursor: pointer;
-  }
-  
-  summary:focus {
+}
+
+summary:focus {
     outline: none;
     
-  }
-  
-  summary:focus::after {
+}
+
+summary:focus::after {
     content: "";
     height: 100%;
     width: 100%;
@@ -114,30 +114,30 @@ h2 {
     top: 0;
     left: 0;
     box-shadow: 0 0 0 5px rebeccapurple;
-  }
-  
-  summary::-webkit-details-marker {
+}
+
+summary::-webkit-details-marker {
     display: none
-  }
-  
-  .control-icon {
+}
+
+.control-icon {
     fill: rebeccapurple;
     transition: .3s ease;
     pointer-events: none;
-  }
-  
-  .control-icon-close {
+}
+
+.control-icon-close {
     display: none;
-  }
-  
-  details[open] .control-icon-close {
+}
+
+details[open] .control-icon-close {
     display: initial;
     transition: .3s ease;
-  }
-  
-  details[open] .control-icon-expand {
+}
+
+details[open] .control-icon-expand {
     display: none;
-  }
+}
 
 .pular {
     margin-bottom: 100%;
@@ -148,15 +148,15 @@ footer {
 }
 
 nav {
-    position: relative; /* Adicione position relative para definir o contexto de posicionamento */
-    z-index: 9999; /* Defina um z-index alto para garantir que o cabeçalho esteja acima de outros elementos */
+    position: relative; 
+    z-index: 9999; 
 }
 
 .whatsapp-button {
-    z-index: 99999; /* Defina um z-index ainda maior para garantir que o botão de borramento esteja acima de todos os outros elementos */
+    z-index: 99999;
 }
 
-/* Remova o fundo oculto nos elementos das listas suspensas */
+
 nav ul ul {
     background-color: transparent;
 }
