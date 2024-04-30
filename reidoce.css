@@ -76,7 +76,6 @@ img {
         right: auto;
         left: 0; /* Posiciona o texto à esquerda */
         width: calc(90% - 40px); /* Largura igual a 90% da largura da tela menos o espaçamento */
-        margin-top: 20px; /* Espaçamento superior */
         margin-right: auto; /* Margem à direita automática */
     }
 
@@ -174,7 +173,6 @@ nav {
 .texto-generosa {
     position: absolute;
     left: 20px;
-    top: 20px;
     z-index: 1;
     color: white;
     text-align: center;
