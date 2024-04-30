@@ -19,7 +19,7 @@
 
 .personagem {
     position: relative;
-    height: 100vh; /* Altura total da viewport */
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -32,7 +32,7 @@
     background-color: #8b0000;
     background-size: cover;
     background-position: center;
-    z-index: -1; /* Definindo o z-index para que o background fique atrás do conteúdo */
+    z-index: -1; 
 }
 
 .conteudo {
@@ -41,24 +41,24 @@
     align-items: center;
     justify-content: flex-end;
     height: 100%;
-    padding: 0 20px; /* Espaçamento interno */
+    padding: 0 20px; 
     box-sizing: border-box;
 }
 
 img {
-    max-width: 50%; /* Ajuste conforme necessário */
+    max-width: 50%; 
     height: auto;
 }
 
 .texto, .texto1 {
     position: absolute;
     bottom: 0px;
-    right: 10px; /* Ajustando a posição do texto para a direita */
-    z-index: 1; /* Garante que o texto esteja acima do background */
+    right: 10px; 
+    z-index: 1; 
     color: white;
     text-align: left;
     text-align: center;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adicionando um leve sombreamento */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .texto, .texto1 h2 {
@@ -81,8 +81,8 @@ img {
 
 @media (max-width: 768px) {
     .conteudo {
-        justify-content: center; /* Centralizar o conteúdo */
-        padding: 0 10px; /* Reduzir o espaçamento interno */
+        justify-content: center;
+        padding: 0 10px; 
     }
     .conteudo {
         display: flex;
@@ -93,29 +93,29 @@ img {
     .texto-esquerda, .texto-generosa {
         position: relative;
         right: auto;
-        left: 0; /* Posiciona o texto à esquerda */
-        width: calc(90% - 40px);  /* Largura igual a 90% da largura da tela menos o espaçamento */
-        margin-right: auto; /* Margem à direita automática */
+        left: 0; 
+        width: calc(90% - 40px); 
+        margin-right: auto; 
     }
 
     .oliver2 {
-        width: 1150px; /* Ajuste o valor conforme necessário para telas maiores */
-        height: auto; /* Mantém a proporção da imagem */
+        width: 1150px;
+        height: auto; 
     }
     }
     
 
     img {
-        max-width: 80%; /* Aumentar o tamanho da imagem para dispositivos móveis */
+        max-width: 80%; 
     }
 
     @media (max-width: 768px) {
         .texto, .texto1 {
-            left: 50%; /* Posiciona o texto no centro da tela */
-            transform: translateX(-50%); /* Ajusta o texto para a esquerda em relação à sua própria largura */
-            width: 90%; /* Limitando a largura do texto para garantir que ele permaneça dentro da tela */
-            padding: 20px; /* Adicionando espaço interno */
-            box-sizing: border-box; /* Incluindo padding no cálculo do tamanho total */
+            left: 50%; 
+            transform: translateX(-50%);
+            width: 90%; 
+            padding: 20px; 
+            box-sizing: border-box;  
         }
         
     }
@@ -124,15 +124,15 @@ img {
 
 .texto-esquerda {
     position: absolute;
-    left: 20px; /* Posição à esquerda */
-    top: 20px; /* Posição no topo */
+    left: 20px; 
+    top: 20px;
     z-index: 1;
     color: white;
     text-align: center;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     padding: 20px;
     background-color: #2e2e2e;
-    margin-right: 20px; /* Espaçamento à direita */
+    margin-right: 20px; 
     box-sizing: border-box;
 }
 
@@ -154,10 +154,6 @@ img {
     background-color: #1B1B1B;
 }
 
-.generosa {
-    background-color: rgb(128, 0, 32); /* Usando RGB */
-}
-
 .selecoes {
     text-align: center;
     background-color: transparent;
@@ -165,8 +161,8 @@ img {
 }
 
 .generosa {
-    position: relative; /* Adiciona posição relativa à seção */
-    background-color: rgb(128, 0, 32); /* Usando RGB */
+    position: relative; 
+    background-color: rgb(128, 0, 32); 
 }
 
 .oliver {
@@ -210,8 +206,8 @@ img {
 }
 
 .oliver2 {
-    width: 550px; /* Ajuste o valor conforme necessário */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 550px; 
+    height: auto; 
 }
 
 
