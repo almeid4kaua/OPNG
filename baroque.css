@@ -1,25 +1,6 @@
-.strip {
-    text-align: center;
-    padding: 41px;
-    background-color: #2e2e2e;
-    color: white;
-}
-
-.strip2 {
-    text-align: center;
-    padding: 0px;
-    background-color: #2e2e2e;
-    color: white;
-    font-weight: bold;
-}
-
-.tomoe {
-    background-color: #191970;
-}
-
 .personagem {
     position: relative;
-    height: 100vh;
+    height: 100vh; 
     overflow: hidden;
 }
 
@@ -81,7 +62,7 @@ img {
 
 @media (max-width: 768px) {
     .conteudo {
-        justify-content: center;
+        justify-content: center; 
         padding: 0 10px; 
     }
     .conteudo {
@@ -93,13 +74,13 @@ img {
     .texto-esquerda, .texto-generosa {
         position: relative;
         right: auto;
-        left: 0; 
-        width: calc(90% - 40px); 
+        left: 0;
+        width: calc(90% - 40px);  
         margin-right: auto; 
     }
 
     .oliver2 {
-        width: 1150px;
+        width: 1150px; 
         height: auto; 
     }
     }
@@ -114,8 +95,8 @@ img {
             left: 50%; 
             transform: translateX(-50%);
             width: 90%; 
-            padding: 20px; 
-            box-sizing: border-box;  
+            padding: 20px;
+            box-sizing: border-box; 
         }
         
     }
@@ -216,6 +197,10 @@ section {
     overflow: hidden;
 }
 
-.akira {
-    background-color: #0A0F0D;
+.barboza {
+    background-color: #9400D3;
+}
+
+.nero {
+    background-color: #8B4513;
 }
