@@ -61,6 +61,14 @@ img {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+.texto {
+    position: relative; /* Referente ao conteudo exposto em PC */
+    z-index: 1;
+    padding: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
 .texto, .texto1 h2 {
     font-size: 24px;
     margin-bottom: 10px;

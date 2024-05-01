@@ -218,3 +218,10 @@ section {
     }
 }
 
+.texto, .texto1 {
+    position: relative; /* Referente ao conteudo exposto em PC */
+    z-index: 1;
+    padding: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
