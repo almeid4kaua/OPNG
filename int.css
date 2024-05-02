@@ -194,14 +194,14 @@ section {
     margin-left: 20px;
 }
 
+nav ul ul {
+    z-index: 9999; /* Aumente o z-index para garantir que o menu dropdown esteja acima das imagens */
+}
+
 .vereesa {
     background-color: #800000;
 }
 
 .aria {
     background-color: #ffb6c1;
-}
-
-nav ul ul {
-    z-index: 9999; /* Aumente o z-index para garantir que o menu dropdown esteja acima das imagens */
 }

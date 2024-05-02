@@ -179,3 +179,6 @@ header{
   background-size: auto;
 }
 
+nav ul ul {
+  z-index: 9999; /* Aumente o z-index para garantir que o menu dropdown esteja acima das imagens */
+}
