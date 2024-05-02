@@ -230,3 +230,17 @@ section {
 .name {
     color: black;
 }
+
+.texto-generosa {
+    left: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-bottom-width: 20px;
+    margin-bottom: 20px;
+}
+
+.texto-esquerda {
+    
+    margin-left: 20px;
+
+}
