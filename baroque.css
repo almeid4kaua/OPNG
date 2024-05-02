@@ -1,6 +1,6 @@
 .personagem {
     position: relative;
-    height: 100vh; 
+    /* height: 100vh; */
     overflow: hidden;
 }
 
@@ -202,7 +202,7 @@ section {
 }
 
 .nero {
-    background-color: #8B4513;
+    background-color: #800080;
 }
 
 @media (max-width: 768px) {
@@ -224,4 +224,16 @@ section {
     padding: 20px;
     margin-right: 20px;
     box-sizing: border-box;
+}
+
+.siameses {
+    background-color: #8b0000;
+}
+
+.texto-esquerda {
+    left: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-bottom-width: 20px;
+    margin-bottom: 20px
 }
