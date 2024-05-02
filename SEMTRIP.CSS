@@ -154,47 +154,11 @@ img {
     line-height: 1.5;
 }
 
-.mix {
-    background-color: #1B1B1B;
-}
-
-.lepaizo {
-    background-color: #1B1B1B;
-}
-
 .selecoes {
     text-align: center;
     background-color: transparent;
     font-size: 50px;
 }
-
-.generosa {
-    position: relative; 
-    background-color: rgb(128, 0, 32); 
-}
-
-.oliver {
-    position: relative;
-    background-color: #8B4513;
-}
-
-.jack {
-    position: relative;
-    background-color: #1B1B1B;
-}
-
-.diane {
-    background-color: #8B4513;
-}
-
-.hawk {
-    background-color: #ff69b4;
-}
-
-.argus {
-    background-color:hsl(42, 100%, 33%);
-}
-
 
 .texto-generosa {
     position: absolute;
@@ -220,7 +184,7 @@ img {
 
 
 section {
-    height: 812px;
+    /* height: 812px; */
     overflow: hidden;
 }
 

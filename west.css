@@ -156,6 +156,10 @@ img {
     background-color: #1B1B1B;
 }
 
+.katty {
+    background-color: #b2d8f8;
+}
+
 .diane {
     background-color: #8B4513;
 }
@@ -193,7 +197,7 @@ img {
 
 
 section {
-    height: 812px;
+    /* height: 812px; */
     overflow: hidden;
 }
 
