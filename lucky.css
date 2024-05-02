@@ -101,10 +101,13 @@ img {
         
     }
     
+
+
 .texto-esquerda {
     position: absolute;
     left: 20px; 
     top: 20px;
+    z-index: 1;
     color: white;
     text-align: center;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -206,6 +209,7 @@ section {
         font-size: 24px; 
     }
 }
+
 
 .trygon {
     background-color: purple;
