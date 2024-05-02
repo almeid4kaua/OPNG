@@ -101,13 +101,10 @@ img {
         
     }
     
-
-
 .texto-esquerda {
-    position: absolute; /* alterar pra relative */
+    position: absolute;
     left: 20px; 
     top: 20px;
-    z-index: 1;
     color: white;
     text-align: center;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -210,14 +207,6 @@ section {
     }
 }
 
-.texto, .texto1 {
-    position: relative; /* Referente ao conteudo exposto em PC */
-    z-index: 1;
-    padding: 20px;
-    margin-right: 20px;
-    box-sizing: border-box;
-}
-
 .trygon {
     background-color: purple;
 }
@@ -226,7 +215,14 @@ section {
     background-color: wheat;
 }
 
-.eliza {
-    color: black;
+.texto, .texto1 {
+    position: relative; /* Referente ao conteudo exposto em PC */
+    z-index: 1;
+    padding: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
 }
 
+.name {
+    color: black;
+}
