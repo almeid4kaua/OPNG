@@ -127,47 +127,11 @@ img {
     line-height: 1.5;
 }
 
-.mix {
-    background-color: #1B1B1B;
-}
-
-.lepaizo {
-    background-color: #1B1B1B;
-}
-
 .selecoes {
     text-align: center;
     background-color: transparent;
     font-size: 50px;
 }
-
-.generosa {
-    position: relative;  
-    background-color: rgb(128, 0, 32); 
-}
-
-.oliver {
-    position: relative;
-    background-color: #8B4513;
-}
-
-.jack {
-    position: relative;
-    background-color: #1B1B1B;
-}
-
-.diane {
-    background-color: #8B4513;
-}
-
-.hawk {
-    background-color: #ff69b4;
-}
-
-.argus {
-    background-color:hsl(42, 100%, 33%);
-}
-
 
 .texto-generosa {
     position: absolute;
@@ -210,25 +174,12 @@ section {
     }
 }
 
-
-.trygon {
-    background-color: purple;
-}
-
-.eliz {
-    background-color: wheat;
-}
-
 .texto, .texto1 {
     position: relative; /* Referente ao conteudo exposto em PC */
     z-index: 1;
     padding: 20px;
     margin-right: 20px;
     box-sizing: border-box;
-}
-
-.name {
-    color: black;
 }
 
 .texto-generosa {
@@ -241,4 +192,16 @@ section {
 
 .texto-esquerda {
     margin-left: 20px;
+}
+
+.vereesa {
+    background-color: #800000;
+}
+
+.aria {
+    background-color: #ffb6c1;
+}
+
+nav ul ul {
+    z-index: 9999; /* Aumente o z-index para garantir que o menu dropdown esteja acima das imagens */
 }
