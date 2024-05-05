@@ -198,17 +198,10 @@ section {
     margin-left: 20px;
 }
 
-.ERINA {
-    background-color: #ffbf00;
+.eucausse {
+    background-color: #0f0e0e;
 }
 
-.DRAKE {
-    background-color: #8b0000;
-}
-
-.ZAFIR {
-    background-color: #8b0000;
-    /* background-image: url(almirantes/backgroundzafir.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; */
+.jinou {
+    background-color: #ffd700;
 }
