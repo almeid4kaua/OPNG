@@ -203,11 +203,11 @@ section {
 }
 
 .soul {
-    background-color: #004ef7;
+    background-color: #2f0fe9;
 }
 
 .ella {
-    background-color: #2f0fe9;
+    background-color: #004ef7;
 }
 
 .hayai {
@@ -215,7 +215,7 @@ section {
 }
 
 .pagiro {
-    background-color: #6fa8dc;
+    background-color: #212324;
 }
 
 .azuma {
@@ -223,15 +223,6 @@ section {
 }
 
 .morgan {
-    background-color: rgb(72, 196, 154);
+    background-color: rgb(252, 0, 34);
 }
 
-.conteudo-zan {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 100%;
-    padding: 0 20px; 
-    box-sizing: border-box;
-}
