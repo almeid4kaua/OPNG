@@ -127,47 +127,11 @@ img {
     line-height: 1.5;
 }
 
-.mix {
-    background-color: #1B1B1B;
-}
-
-.lepaizo {
-    background-color: #1B1B1B;
-}
-
 .selecoes {
     text-align: center;
     background-color: transparent;
     font-size: 50px;
 }
-
-.generosa {
-    position: relative;  
-    background-color: rgb(128, 0, 32); 
-}
-
-.oliver {
-    position: relative;
-    background-color: #8B4513;
-}
-
-.jack {
-    position: relative;
-    background-color: #1B1B1B;
-}
-
-.diane {
-    background-color: #8B4513;
-}
-
-.hawk {
-    background-color: #ff69b4;
-}
-
-.argus {
-    background-color:hsl(42, 100%, 33%);
-}
-
 
 .texto-generosa {
     position: absolute;
@@ -210,15 +174,6 @@ section {
     }
 }
 
-
-.trygon {
-    background-color: purple;
-}
-
-.eliz {
-    background-color: wheat;
-}
-
 .texto, .texto1 {
     position: relative; /* Referente ao conteudo exposto em PC */
     z-index: 1;
@@ -243,10 +198,18 @@ section {
     margin-left: 20px;
 }
 
+.trygon {
+    background-color: purple;
+}
+
+.eliz {
+    background-color: wheat;
+}
+
 .benkhemar {
     background-color: #550000;
 }
 
 .bianka {
-    background-color: #618d9f;
+    background-color:#618d9f;
 }
