@@ -182,6 +182,10 @@ section {
     box-sizing: border-box;
 }
 
+.name {
+    color: black;
+}
+
 .texto-generosa {
     left: 20px;
     margin-top: 10px;
@@ -194,15 +198,11 @@ section {
     margin-left: 20px;
 }
 
-nav ul ul {
-    z-index: 9999; /* Aumente o z-index para garantir que o menu dropdown esteja acima das imagens */
-}
 .ares {
-    background-color: #32cd32;
+    background-color: #7a6c1a;
 }
 
-.generosa {
-    position: relative;  
+.generosa { 
     background-color: rgb(128, 0, 32); 
 }
 
@@ -214,18 +214,6 @@ nav ul ul {
 .jack {
     position: relative;
     background-color: #1B1B1B;
-}
-
-.diane {
-    background-color: #8B4513;
-}
-
-.hawk {
-    background-color: #ff69b4;
-}
-
-.argus {
-    background-color:hsl(42, 100%, 33%);
 }
 
 .mix {
@@ -242,4 +230,8 @@ nav ul ul {
 
 .ringo {
     background-color: #90ee90;
+}
+
+.magnum {
+    background-color: #8b0000;
 }

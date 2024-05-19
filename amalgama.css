@@ -198,14 +198,14 @@ section {
     margin-left: 20px;
 }
 
-.zeck {
-    background-color: #6e1414;
+.harumi {
+    background-color: #ff6961;
 }
 
-.kid {
-    background-color: #8b0000;
+.kana {
+    background-color: #f73b32;
 }
 
-.bonney {
-    background-color: #ff007f;
+.nick {
+    background-color: hsl(0, 0%, 60%);
 }
