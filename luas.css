@@ -20,7 +20,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     height: 100%;
     padding: 0 20px; 
     box-sizing: border-box;
@@ -224,4 +224,14 @@ section {
 
 .morgan {
     background-color: rgb(72, 196, 154);
+}
+
+.conteudo-zan {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 0 20px; 
+    box-sizing: border-box;
 }
