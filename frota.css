@@ -39,7 +39,7 @@ img {
     color: white;
     text-align: left;
     text-align: center;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
 }
 
 .texto, .texto1 h2 {
@@ -63,7 +63,7 @@ img {
 @media (max-width: 768px) {
     .conteudo {
         justify-content: center; 
-        padding: 0 10px; 
+        padding: 0 10px;
     }
     .conteudo {
         display: flex;
@@ -74,13 +74,13 @@ img {
     .texto-esquerda, .texto-generosa {
         position: relative;
         right: auto;
-        left: 0;
+        left: 0; 
         width: calc(90% - 40px);  
         margin-right: auto; 
     }
 
     .oliver2 {
-        width: 1150px; 
+        width: 1150px;
         height: auto; 
     }
     }
@@ -93,9 +93,9 @@ img {
     @media (max-width: 768px) {
         .texto, .texto1 {
             left: 50%; 
-            transform: translateX(-50%);
-            width: 90%; 
-            padding: 20px;
+            transform: translateX(-50%);  
+            width: 90%;  
+            padding: 20px; 
             box-sizing: border-box; 
         }
         
@@ -123,16 +123,8 @@ img {
 }
 
 .texto-esquerda, .texto-generosa p {
-    /* font-size: 16px; */
+    font-size: 16px;
     line-height: 1.5;
-}
-
-.mix {
-    background-color: #1B1B1B;
-}
-
-.lepaizo {
-    background-color: #1B1B1B;
 }
 
 .selecoes {
@@ -140,34 +132,6 @@ img {
     background-color: transparent;
     font-size: 50px;
 }
-
-.generosa {
-    position: relative; 
-    background-color: rgb(128, 0, 32); 
-}
-
-.oliver {
-    position: relative;
-    background-color: #8B4513;
-}
-
-.jack {
-    position: relative;
-    background-color: #1B1B1B;
-}
-
-.diane {
-    background-color: #8B4513;
-}
-
-.hawk {
-    background-color: #ff69b4;
-}
-
-.argus {
-    background-color:hsl(42, 100%, 33%);
-}
-
 
 .texto-generosa {
     position: absolute;
@@ -187,22 +151,14 @@ img {
 }
 
 .oliver2 {
-    width: 550px; 
-    height: auto; 
+    width: 550px;
+    height: auto;/
 }
 
 
 section {
     height: 812px;
     overflow: hidden;
-}
-
-.barboza {
-    background-color: #9400D3;
-}
-
-.nero {
-    background-color: #800080;
 }
 
 @media (max-width: 768px) {
@@ -226,26 +182,22 @@ section {
     box-sizing: border-box;
 }
 
-.siameses {
-    background-color: #8b0000;
+.name {
+    color: black;
 }
 
-.agnes {
-    background-color: #8b4513;
-}
-
-.texto-esquerda {
+.texto-generosa {
     left: 20px;
     margin-top: 10px;
     margin-left: 20px;
     border-bottom-width: 20px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
-.gwen {
-    background-color: #FFC0CB;
+.texto-esquerda {
+    margin-left: 20px;
 }
 
-.karen {
-    background-color: rgb(144, 206, 144);
+.sakray {
+    background-color: #151320;
 }
